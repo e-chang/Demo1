@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="测试demo" verbose="1" preserve-order="true">
+
+    <test name="测试demo" preserve-order="true">
+        <classes>
+            <class name="com.test.extend.demo.TestMethodsDemo">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="logDemo"/>
+
+                </methods>
+
+            </class>
+
+
+
+        </classes>
+    </test>
+
+    <test name="测试demo1" preserve-order="true">
+        <classes>
+            <class name="com.test.extend.demo.Test">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="logDemo"/>
+
+                </methods>
+
+            </class>
+
+
+
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+    </listeners>
+</suite>
