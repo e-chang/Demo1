@@ -1,0 +1,11 @@
+[
+  {
+    "description": "moco",
+    "request": {
+      "uri": "/demo"
+    },
+    "response": {
+      "text": "utf-8(结果)"
+    }
+  }
+]

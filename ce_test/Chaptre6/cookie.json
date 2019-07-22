@@ -1,0 +1,25 @@
+[
+  {
+    "description": "带cookie的post请求",
+    "request": {
+      "uri": "/test",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "headers":{
+        "content-type":"application/json"
+
+      },
+      "json": {
+        "name": "change"
+      }
+    },
+    "response": {
+      "json": {
+        "code": 200,
+        "message": "success"
+      }
+    }
+  }
+]
